@@ -1,0 +1,22 @@
+{
+  "timezone": "Europe/Rome",
+  "format": {"language": "English", "length_seconds": "60-75", "platform": "TikTok", "episodes_per_day": 1},
+  "outcome_policy": "The user does not relay comment results. The nightly agent picks the outcome of the previous cliffhanger itself (prefer the more spectacular option), states it in a one-line recap at the start of the new episode, and makes sure both paths can converge. If the user writes 'ha vinto A/B' (or gives a commenter idea), that overrides the pick.",
+  "current_story": {"id": "001", "title": "The Blue Star", "genre": "heist", "parts_total": 3, "parts_done": 1},
+  "episodes": [
+    {
+      "n": 1, "date": "2026-11-02", "story": "001", "part": 1, "folder": "stories/001-blue-star",
+      "recap": "Night janitor (the player) breaks into the City Museum to steal the Blue Star diamond ($40M, player's cut $4M) with crew Dex (hacker, cameras) and Vera (driver). Six minutes. Laser grid. At the dome a masked rival thief already holds the diamond and says the player's crew sold them both out. Alarm: guards in 30 s. Dex shouts it is a trap, Vera says she leaves in 30 s.",
+      "choices": {"A": "Fight him for the diamond", "B": "Run for the exit, empty-handed"},
+      "outcome": null
+    }
+  ],
+  "cast": {
+    "player": "night janitor, black beanie with orange band, teal jumpsuit (never named)",
+    "Dex": "hacker, curly hair, cyan glasses, headset, green hoodie, voice am_puck (radio)",
+    "Vera": "getaway driver, brown ponytail, red jacket, voice af_nicole (radio)",
+    "Rival": "masked thief, all black, voice bm_lewis",
+    "narrator": "am_michael"
+  },
+  "next_idea_pool": ["zombie apocalypse (supermarket / rooftop survival)", "superpowers (you wake up with one)", "bank or casino heist", "deep-sea / space survival", "escape room gone wrong"]
+}
